@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="10" assertions="10" failures="4" errors="0" time="1.357304">
+    <testsuite name="DeviceTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php" tests="5" assertions="5" failures="4" errors="0" time="0.874484">
+      <testcase name="testIndex" class="DeviceTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php" line="33" assertions="1" time="0.361614"/>
+      <testcase name="testView" class="DeviceTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php" line="46" assertions="1" time="0.127216">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">DeviceTest::testView
+Failed asserting that '
+A PHP Error was encountered
+
+Severity:    Warning
+Message:     Missing argument 1 for Device::view()
+Filename:    C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\controllers\Device.php
+Line Number: 34
+
+Backtrace:
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\controllers\Device.php
+	Line: 34
+	Function: _error_handler
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php
+	Line: 348
+	Function: call_user_func_array
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php
+	Line: 282
+	Function: createAndCallController
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php
+	Line: 151
+	Function: requestUri
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php
+	Line: 183
+	Function: request
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php
+	Line: 47
+	Function: request
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestCase.php
+	Line: 976
+	Function: invokeArgs
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestCase.php
+	Line: 831
+	Function: runTest
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestResult.php
+	Line: 648
+	Function: runBare
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestCase.php
+	Line: 776
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestSuite.php
+	Line: 775
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestSuite.php
+	Line: 745
+	Function: runTest
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestSuite.php
+	Line: 705
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\TextUI\TestRunner.php
+	Line: 349
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\TextUI\Command.php
+	Line: 176
+	Function: doRun
+
+	File: C:\xampp\php\pear\PHPUnit\TextUI\Command.php
+	Line: 129
+	Function: run
+
+	File: C:\xampp\php\phpunit
+	Line: 46
+	Function: main
+
+
+
+A PHP Error was encountered
+
+Severity:    Notice
+Message:     Undefined variable: serial
+Filename:    C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\controllers\Device.php
+Line Number: 35
+
+Backtrace:
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\controllers\Device.php
+	Line: 35
+	Function: _error_handler
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php
+	Line: 348
+	Function: call_user_func_array
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php
+	Line: 282
+	Function: createAndCallController
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php
+	Line: 151
+	Function: requestUri
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php
+	Line: 183
+	Function: request
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php
+	Line: 47
+	Function: request
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestCase.php
+	Line: 976
+	Function: invokeArgs
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestCase.php
+	Line: 831
+	Function: runTest
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestResult.php
+	Line: 648
+	Function: runBare
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestCase.php
+	Line: 776
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestSuite.php
+	Line: 775
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestSuite.php
+	Line: 745
+	Function: runTest
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestSuite.php
+	Line: 705
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\TextUI\TestRunner.php
+	Line: 349
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\TextUI\Command.php
+	Line: 176
+	Function: doRun
+
+	File: C:\xampp\php\pear\PHPUnit\TextUI\Command.php
+	Line: 129
+	Function: run
+
+	File: C:\xampp\php\phpunit
+	Line: 46
+	Function: main
+
+
+{
+    "message": "Nie ma uz\u0105dzenia o tym numerze seryjnym!",
+    "success": false
+}' contains "ip".
+
+C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php:50
+</failure>
+      </testcase>
+      <testcase name="testAdd" class="DeviceTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php" line="57" assertions="1" time="0.194329">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">DeviceTest::testAdd
+Failed asserting that '{
+    "message": "1062: Duplicate entry '12234' for key 'serial_number'",
+    "success": false
+}' contains "ip".
+
+C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php:61
+</failure>
+      </testcase>
+      <testcase name="testChange_state" class="DeviceTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php" line="68" assertions="1" time="0.140238">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">DeviceTest::testChange_state
+Failed asserting that '
+A PHP Error was encountered
+
+Severity:    Notice
+Message:     Trying to get property of non-object
+Filename:    C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\controllers\Device.php
+Line Number: 61
+
+Backtrace:
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\controllers\Device.php
+	Line: 61
+	Function: _error_handler
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php
+	Line: 348
+	Function: call_user_func_array
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php
+	Line: 282
+	Function: createAndCallController
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestRequest.php
+	Line: 151
+	Function: requestUri
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\_ci_phpunit_test\CIPHPUnitTestCase.php
+	Line: 183
+	Function: request
+
+	File: C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php
+	Line: 69
+	Function: request
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestCase.php
+	Line: 976
+	Function: invokeArgs
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestCase.php
+	Line: 831
+	Function: runTest
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestResult.php
+	Line: 648
+	Function: runBare
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestCase.php
+	Line: 776
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestSuite.php
+	Line: 775
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestSuite.php
+	Line: 745
+	Function: runTest
+
+	File: C:\xampp\php\pear\PHPUnit\Framework\TestSuite.php
+	Line: 705
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\TextUI\TestRunner.php
+	Line: 349
+	Function: run
+
+	File: C:\xampp\php\pear\PHPUnit\TextUI\Command.php
+	Line: 176
+	Function: doRun
+
+	File: C:\xampp\php\pear\PHPUnit\TextUI\Command.php
+	Line: 129
+	Function: run
+
+	File: C:\xampp\php\phpunit
+	Line: 46
+	Function: main
+
+
+{
+    "message": "Nie mo\u017cna zmieni\u0107 statusu!",
+    "success": false
+}' contains "ip".
+
+C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php:72
+</failure>
+      </testcase>
+      <testcase name="testFlaglist" class="DeviceTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php" line="79" assertions="1" time="0.051087">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">DeviceTest::testFlaglist
+Failed asserting that 'Device/falglist is not found' contains "ip".
+
+C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\controllers\Device_test.php:83
+</failure>
+      </testcase>
+    </testsuite>
+    <testsuite name="Process_tree_modelTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\models\Process_tree_model_test.php" fullPackage="Process.tree" tests="5" assertions="5" failures="0" errors="0" time="0.482820">
+      <testcase name="testValidate_change_state" class="Process_tree_modelTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\models\Process_tree_model_test.php" line="34" assertions="1" time="0.297505"/>
+      <testcase name="testValidate_change_state2" class="Process_tree_modelTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\models\Process_tree_model_test.php" line="46" assertions="1" time="0.049084"/>
+      <testcase name="testValidate_change_state3" class="Process_tree_modelTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\models\Process_tree_model_test.php" line="58" assertions="1" time="0.035059"/>
+      <testcase name="testValidate_change_state4" class="Process_tree_modelTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\models\Process_tree_model_test.php" line="70" assertions="1" time="0.058098"/>
+      <testcase name="testValidate_change_state5" class="Process_tree_modelTest" file="C:\Users\barszpaw\Documents\NetBeansProjects\zadanie1\application\tests\models\Process_tree_model_test.php" line="82" assertions="1" time="0.043074"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

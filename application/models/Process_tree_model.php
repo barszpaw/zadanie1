@@ -12,10 +12,15 @@ class Process_tree_model extends MY_Model {
 
    /**
     * Sprawdza możliwość zmiany statusu urzadzenia
-    * @param type $state
+    * @param type $state_curr
     * @param type $state_new
-    * @return boolean  TRUE Mozliwa zmiana , FALSE nie mozna zmienic stanu 
-    */    
+    * @return boolean  TRUE Mozliwa zmiana , FALSE nie mozna zmienic stanu
+    * @assert (0, 0) == TRUE
+    * @assert (2, 0) == TRUE
+    * @assert (4, 1) == TRUE
+    * @assert (0, 6) == FALSE
+    * @assert (2, 6) == FALSE
+     */    
     public function validate_change_state($state_curr,$state_new){
     $valid=FALSE;
     $state_curr= $this->get_row($state_curr);
